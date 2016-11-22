@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Login / Aanmelden</title>
+</head>
+
+<body>
+    <header>
+        <img src="images/DFDS_Logo_Positiv_200x200px.png" alt="DFDS Logo">
+        <!--http://www.w3schools.com/html/html_form_input_types.asp-->
+        <form>
+            <input type="search" name="zoeken" placeholder="Zoeken">
+        </form>
+        <!--http://www.w3schools.com/tags/tag_button.asp-->
+        <button type="button">Login</button>
+        <button type="button">Aanmelden</button>
+    </header>
+    <main>
+        <!--http://www.cssflow.com/snippets/login-form/demo/html-->
+        <section>
+            <h1>Inloggen</h1>
+            <form method="post" action="index.html">
+                <p>
+                    <input type="text" name="login" value="" placeholder="E-mailadres">
+                </p>
+                <p>
+                    <input type="password" name="password" value="" placeholder="Wachtwoord">
+                </p>
+                <p>
+                    <label>
+                        <input type="checkbox" name="remember_me"> Onthoud op deze computer
+                    </label>
+                </p>
+                <p>
+                    <input type="submit" name="commit" value="Login">
+                </p>
+            </form>
+            <p>Wachtwoord vergeten? <a href="">Klik om te resetten</a>.</p>
+            <p>Geen account? <a href="aanmelden.html">Maak een account aan</a>.</p>
+        </section>
+    </main>
+</body>
+
+</html>
